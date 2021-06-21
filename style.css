@@ -1,0 +1,53 @@
+.game {
+    width: 900px;
+    height: 450px;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+#dino {
+    width: 158px;
+    height: 160px;
+    background-image: url(img/dino.png);
+    background-size: auto;
+    position: relative;
+    top: 290px;
+}
+#meteor {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/meteor.png);
+    background-size: auto;
+    position: relative;
+    left: 700px;
+    top: 100px;
+    animation: meteorMov 1s infinite linear;
+}
+
+@keyframes meteorMov {
+    0% {
+        left: 900px;
+    }
+    100% {
+        left: -100px;
+    }
+}
+.jump{
+    animation: jump 2.5s linear;
+}
+@keyframes jump {
+    0% {
+        top: 180px;
+    }
+    30% {
+        top: 130px;
+    }
+    50% {
+        top: 20px;
+    }
+    80% {
+        top: 130px;
+    }
+    100% {
+        top: 180px;
+    }
+}
