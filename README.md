@@ -1,3 +1,3 @@
 # dinogame
 
-https://zilarr.github.io/dinogame/index.html
+https://zilarr.github.io/dinogame/
